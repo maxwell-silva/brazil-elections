@@ -1,0 +1,22 @@
+{
+  "name": "brazil-elections",
+  "version": "1.0.0",
+  "description": "This project has the objective to couting votes across Brazil, using the official channel provide by TSE (_Tribunal Superior Eleitoral_ => **Superior Electoral Court**)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwell-silva/brazil-elections.git"
+  },
+  "author": "maxwell-silva",
+  "license": "SEE LICENSE IN LISENSE",
+  "bugs": {
+    "url": "https://github.com/maxwell-silva/brazil-elections/issues"
+  },
+  "homepage": "https://github.com/maxwell-silva/brazil-elections#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1243.0"
+  }
+}
