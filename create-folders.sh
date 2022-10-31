@@ -1,5 +1,6 @@
 ## Script to create structure folder
 
+mkdir _data
 mkdir _data/trigger-docs/ ## Document EA09 
 
 ## data about election
@@ -8,6 +9,7 @@ mkdir _data/EA01
 ## Current or most recent data about counting votes (Document EA02)
 mkdir _data/votes
 mkdir _data/votes/br/ ## Brazil => States + Federal District
+mkdir _data/votes/zz/ ## Abroad
 mkdir _data/votes/df/ ## Distrito Federal => cities of DF
 mkdir _data/votes/sp/ ## São Paulo => cities of SP
 mkdir _data/votes/ac/ ## Acre	=> cities of AC

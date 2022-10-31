@@ -3,13 +3,13 @@ export default class Vote {
     this.voteSubject = voteSubject;
   }
 
-  newGlobalCounting({ uf, file }) {
+  newGlobalFileVersion({ uf, file }) {
     this.voteSubject.notify({ kind: "global", uf, file });
   }
-  newStateCounting({ uf, stateFile }) {
+  newStateFileVersion({ uf, stateFile }) {
     this.voteSubject.notify({ kind: "state", uf, file: stateFile });
   }
-  newCityCounting({ uf, cityFile }) {
+  newCityFileVersion({ uf, cityFile }) {
     this.voteSubject.notify({ kind: "city", uf, file: cityFile });
   }
 }

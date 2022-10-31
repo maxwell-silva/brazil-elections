@@ -1,4 +1,4 @@
-export default class PaymentSubject {
+export default class VoteSubject {
   #observers = new Set();
 
   notify(data) {
